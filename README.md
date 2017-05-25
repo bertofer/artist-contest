@@ -5,6 +5,12 @@ and allows the user to vote. It also displays more information about the artist 
 Ideally, it will also display information about the next concerts, but I just requested the API
 key for songkick, hopefully it will get in time!
 
+## To start
+`npm install` and then open 2 different terminals. Type `npm run start-api` in one,
+and then `npm run start-ui` in the other, then go to localhost:8080
+
+The tests are run with `npm test`
+
 ## Rationale
 Why some of the things are like they are. What other things I'd do that I don't because of timing / small API / to go quickly
 
