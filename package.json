@@ -1,0 +1,52 @@
+{
+  "name": "featured-artists",
+  "version": "1.0.0",
+  "description": "Web app that shows you the featured artists of this week",
+  "scripts": {
+    "test": "standard && mocha test/specs/*.js",
+    "build": "webpack",
+    "start-ui": "webpack-dev-server --progress",
+    "start-api": "node ./server/"
+  },
+  "author": "Alberto Fernandez",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^3.5.0",
+    "css-loader": "^0.28.2",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "mocha": "^3.4.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "standard": "^10.0.2",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "ramda": "^0.23.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-observable": "^0.14.1",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "rxjs": "^5.4.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach"
+    ]
+  }
+}

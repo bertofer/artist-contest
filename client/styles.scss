@@ -1,0 +1,21 @@
+#contest {
+  .artist-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: rgb(96.1%, 96.1%, 96.1%);
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0, 0.3)
+  }
+
+  .artist-name {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  button {
+    margin-left: 10px;
+  }
+}
