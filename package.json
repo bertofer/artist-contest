@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Web app that shows you the featured artists of this week",
   "scripts": {
-    "test": "standard && mocha test/specs/*.js",
+    "test": "mocha test/specs/*.js",
     "build": "webpack",
     "start-ui": "webpack-dev-server --progress",
     "start-api": "node ./server/"
